@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CellImageOnly" id="bO3-h6-7wF" customClass="CollectionCellImageOnly" customModule="NetflixLikeView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="153" height="171"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="153" height="171"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I7f-dL-XRU" customClass="CardView" customModule="NetflixLikeView" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="153" height="171"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P43-mw-qri">
+                                <rect key="frame" x="0.0" y="0.0" width="153" height="171"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="P43-mw-qri" secondAttribute="trailing" id="85r-v9-Rh7"/>
+                            <constraint firstItem="P43-mw-qri" firstAttribute="leading" secondItem="I7f-dL-XRU" secondAttribute="leading" id="Gqv-bo-uWA"/>
+                            <constraint firstItem="P43-mw-qri" firstAttribute="top" secondItem="I7f-dL-XRU" secondAttribute="top" id="i4s-1f-Q9J"/>
+                            <constraint firstAttribute="bottom" secondItem="P43-mw-qri" secondAttribute="bottom" id="ztQ-BB-sYm"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="I7f-dL-XRU" secondAttribute="bottom" id="456-Ys-bYn"/>
+                <constraint firstItem="I7f-dL-XRU" firstAttribute="leading" secondItem="bO3-h6-7wF" secondAttribute="leading" id="ZxM-5C-eVQ"/>
+                <constraint firstItem="I7f-dL-XRU" firstAttribute="top" secondItem="bO3-h6-7wF" secondAttribute="top" id="bFV-5e-C5a"/>
+                <constraint firstAttribute="trailing" secondItem="I7f-dL-XRU" secondAttribute="trailing" id="xYN-fG-gwc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Wsu-vL-9W9"/>
+            <connections>
+                <outlet property="cardView" destination="I7f-dL-XRU" id="XFA-yP-lFs"/>
+                <outlet property="imageView" destination="P43-mw-qri" id="49T-uV-zXa"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

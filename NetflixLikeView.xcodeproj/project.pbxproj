@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1828EB34224F4F8900FF8D72 /* GREETING_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828EB33224F4F8900FF8D72 /* GREETING_Model.swift */; };
+		1828EB36224F8FA500FF8D72 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828EB35224F8FA500FF8D72 /* Toast.swift */; };
+		8400BDAF2216893C00EF10B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDAE2216893C00EF10B2 /* AppDelegate.swift */; };
+		8400BDB12216893C00EF10B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDB02216893C00EF10B2 /* ViewController.swift */; };
+		8400BDB42216893C00EF10B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8400BDB22216893C00EF10B2 /* Main.storyboard */; };
+		8400BDB62216893E00EF10B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8400BDB52216893E00EF10B2 /* Assets.xcassets */; };
+		8400BDB92216893E00EF10B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8400BDB72216893E00EF10B2 /* LaunchScreen.storyboard */; };
+		8400BDC122168ABC00EF10B2 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDC022168ABB00EF10B2 /* Router.swift */; };
+		8400BDC322168ADC00EF10B2 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDC222168ADC00EF10B2 /* WebService.swift */; };
+		8400BDC522168BF900EF10B2 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDC422168BF800EF10B2 /* RequestModel.swift */; };
+		8400BDC72216A62900EF10B2 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDC62216A62900EF10B2 /* CategoryModel.swift */; };
+		8400BDC92216A64300EF10B2 /* SubCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDC82216A64300EF10B2 /* SubCategoryModel.swift */; };
+		8400BDCB2216AB8F00EF10B2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDCA2216AB8F00EF10B2 /* CardView.swift */; };
+		8400BDD12216B0C900EF10B2 /* GLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDCD2216B0C900EF10B2 /* GLCollectionTableViewCell.swift */; };
+		8400BDD22216B0C900EF10B2 /* GLTableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDCE2216B0C900EF10B2 /* GLTableCollectionViewController.swift */; };
+		8400BDD32216B0C900EF10B2 /* GLIndexedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDCF2216B0C900EF10B2 /* GLIndexedCollectionViewCell.swift */; };
+		8400BDD72216BC5700EF10B2 /* CollectionCellImageOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDD52216BC5700EF10B2 /* CollectionCellImageOnly.swift */; };
+		8400BDD82216BC5700EF10B2 /* CollectionCellImageOnly.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8400BDD62216BC5700EF10B2 /* CollectionCellImageOnly.xib */; };
+		8400BDDB2216BC6A00EF10B2 /* CollectionCellImageAndText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BDD92216BC6A00EF10B2 /* CollectionCellImageAndText.swift */; };
+		8400BDDC2216BC6A00EF10B2 /* CollectionCellImageAndText.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8400BDDA2216BC6A00EF10B2 /* CollectionCellImageAndText.xib */; };
+		8F5CD04017858C98E03CB500 /* Pods_NetflixLikeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6390168212CFD83CBA34E3 /* Pods_NetflixLikeView.framework */; };
+		FCA75BFC221AE6DC0093F674 /* GLIndexedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA75BFB221AE6DC0093F674 /* GLIndexedCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1828EB33224F4F8900FF8D72 /* GREETING_Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GREETING_Model.swift; sourceTree = "<group>"; };
+		1828EB35224F8FA500FF8D72 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		2B6390168212CFD83CBA34E3 /* Pods_NetflixLikeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetflixLikeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531C21AF07A3AF9E9A033710 /* Pods-NetflixLikeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetflixLikeView.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetflixLikeView/Pods-NetflixLikeView.release.xcconfig"; sourceTree = "<group>"; };
+		6F55FEDCCE8B80961F22411F /* Pods-NetflixLikeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetflixLikeView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetflixLikeView/Pods-NetflixLikeView.debug.xcconfig"; sourceTree = "<group>"; };
+		8400BDAB2216893C00EF10B2 /* NetflixLikeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixLikeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8400BDAE2216893C00EF10B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8400BDB02216893C00EF10B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8400BDB32216893C00EF10B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8400BDB52216893E00EF10B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8400BDB82216893E00EF10B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8400BDBA2216893E00EF10B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8400BDC022168ABB00EF10B2 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8400BDC222168ADC00EF10B2 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		8400BDC422168BF800EF10B2 /* RequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		8400BDC62216A62900EF10B2 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		8400BDC82216A64300EF10B2 /* SubCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryModel.swift; sourceTree = "<group>"; };
+		8400BDCA2216AB8F00EF10B2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8400BDCD2216B0C900EF10B2 /* GLCollectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		8400BDCE2216B0C900EF10B2 /* GLTableCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLTableCollectionViewController.swift; sourceTree = "<group>"; };
+		8400BDCF2216B0C900EF10B2 /* GLIndexedCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLIndexedCollectionViewCell.swift; sourceTree = "<group>"; };
+		8400BDD52216BC5700EF10B2 /* CollectionCellImageOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellImageOnly.swift; sourceTree = "<group>"; };
+		8400BDD62216BC5700EF10B2 /* CollectionCellImageOnly.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCellImageOnly.xib; sourceTree = "<group>"; };
+		8400BDD92216BC6A00EF10B2 /* CollectionCellImageAndText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellImageAndText.swift; sourceTree = "<group>"; };
+		8400BDDA2216BC6A00EF10B2 /* CollectionCellImageAndText.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCellImageAndText.xib; sourceTree = "<group>"; };
+		FCA75BFB221AE6DC0093F674 /* GLIndexedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GLIndexedCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8400BDA82216893C00EF10B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5CD04017858C98E03CB500 /* Pods_NetflixLikeView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4698F5C22623B755B454C1F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F55FEDCCE8B80961F22411F /* Pods-NetflixLikeView.debug.xcconfig */,
+				531C21AF07A3AF9E9A033710 /* Pods-NetflixLikeView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8400BDA22216893C00EF10B2 = {
+			isa = PBXGroup;
+			children = (
+				8400BDAD2216893C00EF10B2 /* NetflixLikeView */,
+				8400BDAC2216893C00EF10B2 /* Products */,
+				4698F5C22623B755B454C1F9 /* Pods */,
+				FC9FD2CAB5FD63D0D61BC894 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8400BDAC2216893C00EF10B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8400BDAB2216893C00EF10B2 /* NetflixLikeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8400BDAD2216893C00EF10B2 /* NetflixLikeView */ = {
+			isa = PBXGroup;
+			children = (
+				8400BDCC2216B0C900EF10B2 /* CustomClass */,
+				8400BDC422168BF800EF10B2 /* RequestModel.swift */,
+				8400BDC222168ADC00EF10B2 /* WebService.swift */,
+				8400BDC022168ABB00EF10B2 /* Router.swift */,
+				8400BDAE2216893C00EF10B2 /* AppDelegate.swift */,
+				8400BDB02216893C00EF10B2 /* ViewController.swift */,
+				8400BDB22216893C00EF10B2 /* Main.storyboard */,
+				8400BDB52216893E00EF10B2 /* Assets.xcassets */,
+				8400BDB72216893E00EF10B2 /* LaunchScreen.storyboard */,
+				8400BDBA2216893E00EF10B2 /* Info.plist */,
+				1828EB33224F4F8900FF8D72 /* GREETING_Model.swift */,
+				8400BDC62216A62900EF10B2 /* CategoryModel.swift */,
+				8400BDC82216A64300EF10B2 /* SubCategoryModel.swift */,
+				8400BDCA2216AB8F00EF10B2 /* CardView.swift */,
+				8400BDD52216BC5700EF10B2 /* CollectionCellImageOnly.swift */,
+				8400BDD62216BC5700EF10B2 /* CollectionCellImageOnly.xib */,
+				8400BDD92216BC6A00EF10B2 /* CollectionCellImageAndText.swift */,
+				8400BDDA2216BC6A00EF10B2 /* CollectionCellImageAndText.xib */,
+				1828EB35224F8FA500FF8D72 /* Toast.swift */,
+			);
+			path = NetflixLikeView;
+			sourceTree = "<group>";
+		};
+		8400BDCC2216B0C900EF10B2 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				8400BDCD2216B0C900EF10B2 /* GLCollectionTableViewCell.swift */,
+				8400BDCE2216B0C900EF10B2 /* GLTableCollectionViewController.swift */,
+				8400BDCF2216B0C900EF10B2 /* GLIndexedCollectionViewCell.swift */,
+				FCA75BFB221AE6DC0093F674 /* GLIndexedCollectionViewCell.xib */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		FC9FD2CAB5FD63D0D61BC894 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B6390168212CFD83CBA34E3 /* Pods_NetflixLikeView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8400BDAA2216893C00EF10B2 /* NetflixLikeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8400BDBD2216893E00EF10B2 /* Build configuration list for PBXNativeTarget "NetflixLikeView" */;
+			buildPhases = (
+				F226CD1CDFEA7FA7ACB6062A /* [CP] Check Pods Manifest.lock */,
+				8400BDA72216893C00EF10B2 /* Sources */,
+				8400BDA82216893C00EF10B2 /* Frameworks */,
+				8400BDA92216893C00EF10B2 /* Resources */,
+				1170D1359AA6A7FFFBE7390F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetflixLikeView;
+			productName = NetflixLikeView;
+			productReference = 8400BDAB2216893C00EF10B2 /* NetflixLikeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8400BDA32216893C00EF10B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Virtuoso;
+				TargetAttributes = {
+					8400BDAA2216893C00EF10B2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8400BDA62216893C00EF10B2 /* Build configuration list for PBXProject "NetflixLikeView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8400BDA22216893C00EF10B2;
+			productRefGroup = 8400BDAC2216893C00EF10B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8400BDAA2216893C00EF10B2 /* NetflixLikeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8400BDA92216893C00EF10B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8400BDB92216893E00EF10B2 /* LaunchScreen.storyboard in Resources */,
+				FCA75BFC221AE6DC0093F674 /* GLIndexedCollectionViewCell.xib in Resources */,
+				8400BDD82216BC5700EF10B2 /* CollectionCellImageOnly.xib in Resources */,
+				8400BDB62216893E00EF10B2 /* Assets.xcassets in Resources */,
+				8400BDB42216893C00EF10B2 /* Main.storyboard in Resources */,
+				8400BDDC2216BC6A00EF10B2 /* CollectionCellImageAndText.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1170D1359AA6A7FFFBE7390F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NetflixLikeView/Pods-NetflixLikeView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetflixLikeView/Pods-NetflixLikeView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F226CD1CDFEA7FA7ACB6062A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetflixLikeView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8400BDA72216893C00EF10B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8400BDDB2216BC6A00EF10B2 /* CollectionCellImageAndText.swift in Sources */,
+				8400BDC522168BF900EF10B2 /* RequestModel.swift in Sources */,
+				8400BDD72216BC5700EF10B2 /* CollectionCellImageOnly.swift in Sources */,
+				8400BDC72216A62900EF10B2 /* CategoryModel.swift in Sources */,
+				1828EB34224F4F8900FF8D72 /* GREETING_Model.swift in Sources */,
+				8400BDB12216893C00EF10B2 /* ViewController.swift in Sources */,
+				8400BDC122168ABC00EF10B2 /* Router.swift in Sources */,
+				1828EB36224F8FA500FF8D72 /* Toast.swift in Sources */,
+				8400BDD32216B0C900EF10B2 /* GLIndexedCollectionViewCell.swift in Sources */,
+				8400BDC322168ADC00EF10B2 /* WebService.swift in Sources */,
+				8400BDC92216A64300EF10B2 /* SubCategoryModel.swift in Sources */,
+				8400BDCB2216AB8F00EF10B2 /* CardView.swift in Sources */,
+				8400BDD12216B0C900EF10B2 /* GLCollectionTableViewCell.swift in Sources */,
+				8400BDD22216B0C900EF10B2 /* GLTableCollectionViewController.swift in Sources */,
+				8400BDAF2216893C00EF10B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8400BDB22216893C00EF10B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8400BDB32216893C00EF10B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8400BDB72216893E00EF10B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8400BDB82216893E00EF10B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8400BDBB2216893E00EF10B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8400BDBC2216893E00EF10B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8400BDBE2216893E00EF10B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F55FEDCCE8B80961F22411F /* Pods-NetflixLikeView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69ALP26JW7;
+				INFOPLIST_FILE = NetflixLikeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Prakash.NetflixLikeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8400BDBF2216893E00EF10B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531C21AF07A3AF9E9A033710 /* Pods-NetflixLikeView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69ALP26JW7;
+				INFOPLIST_FILE = NetflixLikeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Prakash.NetflixLikeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8400BDA62216893C00EF10B2 /* Build configuration list for PBXProject "NetflixLikeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8400BDBB2216893E00EF10B2 /* Debug */,
+				8400BDBC2216893E00EF10B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8400BDBD2216893E00EF10B2 /* Build configuration list for PBXNativeTarget "NetflixLikeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8400BDBE2216893E00EF10B2 /* Debug */,
+				8400BDBF2216893E00EF10B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8400BDA32216893C00EF10B2 /* Project object */;
+}

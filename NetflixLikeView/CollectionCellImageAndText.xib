@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CellImageAndText" id="bLY-QV-6TC" customClass="CollectionCellImageAndText" customModule="NetflixLikeView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="153" height="171"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="153" height="171"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IjS-LG-Lb6" customClass="CardView" customModule="NetflixLikeView" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="153" height="171"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IIX-Oq-NZm">
+                                <rect key="frame" x="0.0" y="0.0" width="153" height="134"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFV-jL-SEY">
+                                <rect key="frame" x="8" y="142" width="137" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eFV-jL-SEY" firstAttribute="leading" secondItem="IjS-LG-Lb6" secondAttribute="leading" constant="8" id="4Bq-DG-qxt"/>
+                            <constraint firstItem="IIX-Oq-NZm" firstAttribute="leading" secondItem="IjS-LG-Lb6" secondAttribute="leading" id="GTP-hJ-bc5"/>
+                            <constraint firstAttribute="trailing" secondItem="eFV-jL-SEY" secondAttribute="trailing" constant="8" id="H3N-2y-hzE"/>
+                            <constraint firstAttribute="bottom" secondItem="eFV-jL-SEY" secondAttribute="bottom" constant="8" id="KWr-CY-Bge"/>
+                            <constraint firstItem="IIX-Oq-NZm" firstAttribute="top" secondItem="IjS-LG-Lb6" secondAttribute="top" id="dF0-KM-nzY"/>
+                            <constraint firstAttribute="trailing" secondItem="IIX-Oq-NZm" secondAttribute="trailing" id="eQw-qE-rDS"/>
+                            <constraint firstItem="eFV-jL-SEY" firstAttribute="top" secondItem="IIX-Oq-NZm" secondAttribute="bottom" constant="8" id="eat-vq-4OZ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetWidth">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetHeight">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="IjS-LG-Lb6" secondAttribute="bottom" id="54X-X6-HW1"/>
+                <constraint firstItem="IjS-LG-Lb6" firstAttribute="top" secondItem="bLY-QV-6TC" secondAttribute="top" id="FXZ-mW-vvP"/>
+                <constraint firstItem="IjS-LG-Lb6" firstAttribute="leading" secondItem="bLY-QV-6TC" secondAttribute="leading" id="IGm-Cd-UEw"/>
+                <constraint firstAttribute="trailing" secondItem="IjS-LG-Lb6" secondAttribute="trailing" id="JPq-kj-92q"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="DSI-rT-BMm"/>
+            <connections>
+                <outlet property="cardView" destination="IjS-LG-Lb6" id="CIY-Nu-YMZ"/>
+                <outlet property="imageView" destination="IIX-Oq-NZm" id="Zup-Gn-oxt"/>
+                <outlet property="labelTitle" destination="eFV-jL-SEY" id="5U9-aR-11d"/>
+            </connections>
+            <point key="canvasLocation" x="40.799999999999997" y="46.326836581709152"/>
+        </collectionViewCell>
+    </objects>
+</document>
